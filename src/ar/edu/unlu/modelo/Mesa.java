@@ -2,8 +2,8 @@ package ar.edu.unlu.modelo;
 
 public class Mesa {
 	
-	public int fila = 5;
-	public int columna = 9;
+	static final int fila = 5;
+	static final int columna = 9;
 	
 	 String [] [] tunel = new String [fila][columna];
 	
